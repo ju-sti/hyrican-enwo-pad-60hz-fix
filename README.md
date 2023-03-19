@@ -10,3 +10,9 @@ The Hyrican Enwo Pad (also known as Hyrican Study Pad One and Pipo W12) tablet h
 
 ## How does the fix work
 The hardware configuration of the display panel is changed. Actually it is the configuration of the DSI to eDP bridge chip in the tablet but I'm now to tired to write more about this after working the whole weekend on this topic.
+
+## Known issues
+1) Only tested by myself. If your device hardware is different from mine this fix could completely disable your Windows (bluescreen when starting).
+2) Screen brightness can't be changed (I will fix this soon)
+3) It's necessary to turn the screen off and on again once after starting Windows to enable the fix.
+4) Ugly test mode overlay on the desktop because of the testsigning mode.
