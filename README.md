@@ -4,7 +4,7 @@ The Hyrican Enwo Pad (also known as Hyrican Study Pad One and Pipo W12) tablet h
 
 ## How to fix this problem
 1) Disable Safe Boot in the UEFI setup. The easiest way to get to the UEFI is to open a cmd.exe terminal and enter ```shutdown /r /fw /t 0```
-2) Execute the file ```ACPI_DSDT_Override.reg``` in Windows.
+2) Download the file ```ACPI_DSDT_Override.reg``` and start it in Windows.
 3) Open a cmd terminal as admin and enter ```bcdedit /set testsigning on```
 4) Restart Windows. The refresh rate will be 60Hz after turning the screen off and on again.
 
