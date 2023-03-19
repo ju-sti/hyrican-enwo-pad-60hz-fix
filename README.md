@@ -13,6 +13,6 @@ The hardware configuration of the display panel is changed. Actually it is the c
 
 ## Known issues
 1) Only tested by myself. If your device hardware is different from mine this fix could completely disable your Windows (bluescreen when starting).
-2) Screen brightness can't be changed (I will fix this soon)
+2) Changing the screen brightness doesn't work sometimes.
 3) It's necessary to turn the screen off and on again once after starting Windows to enable the fix.
 4) Ugly test mode overlay on the desktop because of the testsigning mode.
