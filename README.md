@@ -27,7 +27,7 @@ The easiest way to override the ACPI tables is by using the ACPI override using 
 4) replace the string ```<DSIBitClockFrequency>700000000</DSIBitClockFrequency>``` with whitespaces (hex 0x20) to remove this configuration option
 5) save the edited file
 6) run ```iasl.exe -d DSDT.dat```
-7) open the file and look at the corrected checksum ("...should be...") at the top of the file
+7) open the dsdt.dsl file and look at the corrected checksum ("...should be...") at the top of the file
 8) replace the existing wrong checksum with the new corrected checksum in DSDT.dat, it is stored in the first row at position 0x9, save the file
 9) Download and install the WDK with asl.exe from https://learn.microsoft.com/en-us/windows-hardware/drivers/bringup/microsoft-asl-compiler
 10) Run ```asl.exe /loadtable -v DSDT.AML```, see for more details https://github.com/bentiss/SimplePeripheralBusProbe/blob/master/README.md#overloading-the-dsdt
